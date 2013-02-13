@@ -9,7 +9,7 @@ use YAML;
 
 my %Opt = 
   (
-   boards_txt => '/Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/boards.txt',
+   boards_txt => '/Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/avr/boards.txt',
   );
 
 GetOptions(\%Opt,

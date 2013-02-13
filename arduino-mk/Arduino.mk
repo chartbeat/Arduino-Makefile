@@ -308,8 +308,8 @@ AVR_TOOLS_PATH    = $(AVR_TOOLS_DIR)/bin
 endif
 
 ARDUINO_LIB_PATH  = $(ARDUINO_DIR)/libraries
-ARDUINO_CORE_PATH = $(ARDUINO_DIR)/hardware/arduino/cores/arduino
-ARDUINO_VAR_PATH  = $(ARDUINO_DIR)/hardware/arduino/variants
+ARDUINO_CORE_PATH = $(ARDUINO_DIR)/hardware/arduino/avr/cores/arduino
+ARDUINO_VAR_PATH  = $(ARDUINO_DIR)/hardware/arduino/avr/variants
 
 else
 
@@ -372,7 +372,7 @@ BOARD_TAG   = uno
 endif
 
 ifndef BOARDS_TXT
-BOARDS_TXT  = $(ARDUINO_DIR)/hardware/arduino/boards.txt
+BOARDS_TXT  = $(ARDUINO_DIR)/hardware/arduino/avr/boards.txt
 endif
 
 ifndef PARSE_BOARD
